@@ -1,0 +1,25 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+@import "map.scss";
+@import "mixin.scss";
+@import "../bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+h1 {
+    font-size: $h1;
+}
+h2 {
+    font-size: $h2;
+}
+h5 {
+    font-size: $h5;
+}
+h3 {
+    font-size: $h3;
+}
+h4 {
+    font-size: $h4;
+}
